@@ -213,6 +213,6 @@ provisioner: nfs.csi.k8s.io
 parameters:
   server: 13.235.254.70
   path: /mnt/nfs
-reclaimPolicy:  Delete
-volumeBindingMode:  Immediate
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
 ```
